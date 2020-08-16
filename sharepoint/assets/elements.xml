@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Field ID="{554bf21b-85a1-4b9a-93da-44ade6087888}"
+            Name="Result"
+            DisplayName="Result"
+            Type="Text"
+            Min="0"
+            Required="FALSE"
+            Group="SPFx Columns"
+            ClientSideComponentId="4d0ee613-7035-4d61-a1d0-3577d2c8cc69">
+    </Field>
+</Elements>

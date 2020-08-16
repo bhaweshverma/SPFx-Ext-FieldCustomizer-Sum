@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://gtlawhub.sharepoint.com/sites/developersite/Lists/SPFx%20Extensions/AllItems.aspx",
+      "fieldCustomizers": {
+        "Result": {
+          "id": "4d0ee613-7035-4d61-a1d0-3577d2c8cc69",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "fieldCustomizerSum": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "fieldCustomizers": {
+        "InternalFieldName": {
+          "id": "4d0ee613-7035-4d61-a1d0-3577d2c8cc69",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}
